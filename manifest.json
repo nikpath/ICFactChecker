@@ -10,11 +10,6 @@
     "browser_action": {
    	"default_icon": "icon.png",
    	"default_popup": "popup.html"},
-
-    "manifest_version": 2,
-
-    "permissions" : [
-    "contextMenus",
-    "tabs"
-    ]
+    "permissions" : ["storage", "contextMenus"],
+    "manifest_version": 2
   }

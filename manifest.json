@@ -7,6 +7,10 @@
       "persistent": false
     },
 
+    "icons": { "16": "ogsmall.png",
+           "48": "ogmedium.png",
+          "128": "oglarge.png" },
+
     "browser_action": {
    	"default_icon": "ogsmall.png",
    	"default_popup": "popup.html"},

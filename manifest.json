@@ -2,14 +2,14 @@
     "name": "ICFactChecker",
     "version": "1.0",
     "description": "Check yo facts, yo",
-    "icons": { "16": "icon.jpg", "48": "medium.jpg", "128": "large.jpg" },
+    "icons": { "16": "test1.png", "48": "test2.jpg", "128": "test3.jpg" },
   	"background": {
       "scripts": ["background.js"],
       "persistent": false
     },
 
     "browser_action": {
-   	"default_icon": {"16": "icon.jpg", "48": "medium.jpg", "128": "large.jpg"},
+   	"default_icon": {"16": "test1.png", "48": "test2.jpg", "128": "test3.jpg"},
    	"default_popup": "popup.html"},
 
     "manifest_version": 2,

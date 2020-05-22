@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
 			var f = d.createElement('form');
 			f.action = 'https://www.factcheck.org/search/';
 			f.method = 'post';
-			var i = d.createElement('inpust');
+			var i = d.createElement('inputs');
 			i.type = 'hidden';
 			i.name = 'url';
 			i.value = tab.url;

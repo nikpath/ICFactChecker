@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "Check yo facts, yo",
   	"background": {
-      "scripts": ["background.js"],
+      "scripts": ["background.js", "jquery-3.5.1.js"],
       "persistent": false
     },
 
@@ -14,6 +14,7 @@
     "browser_action": {
    	"default_icon": "ogsmall.png",
    	"default_popup": "popup.html"},
-    "permissions" : ["storage", "contextMenus"],
+    "permissions" : ["declarativeContent","activeTab","storage", "contextMenus"],
+    "web_accessible_resources" : ["infoPopup.html", "infoPopup.js", "infoDisplay.js"],
     "manifest_version": 2
   }

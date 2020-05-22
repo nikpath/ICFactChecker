@@ -1,4 +1,4 @@
-document.addEventListner('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
 	var checkPageButton = document.getElementById('checkPage');
 	checkPageButton.addEventListener('click', function(){
 
@@ -8,7 +8,7 @@ document.addEventListner('DOMContentLoaded', function(){
 			var f = d.createElement('form');
 			f.action = 'https://www.factcheck.org/search/';
 			f.method = 'post';
-			var i = d.createElement('input');
+			var i = d.createElement('inpust');
 			i.type = 'hidden';
 			i.name = 'url';
 			i.value = tab.url;

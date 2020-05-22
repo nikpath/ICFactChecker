@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function(){
 			d.body.appendChild(f);
 			f.submit();
 
-			infoPopup.style.cssText = 'width : 500px; height : 500px';
 
 		});
 	}, false);

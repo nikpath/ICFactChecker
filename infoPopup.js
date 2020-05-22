@@ -18,7 +18,7 @@ function createFrame(searchWords){
 
         // Some styles for a fancy sidebar
         iframe.style.cssText = 'position:fixed;bottom:0;right:0;display:block;' +
-                               'width:300px;height:30%;z-index:1000;';
+                               'width:300px;height:100%;z-index:1000;';
         document.body.appendChild(iframe);
     }
 }
